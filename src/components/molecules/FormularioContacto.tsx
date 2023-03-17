@@ -92,22 +92,16 @@ function FormularioContacto() {
     window.location.href = mailtoLink;
   };
 
-  /* const enviarWhatsapp = (e) => {
-    e.preventDefault();
-    const whatsappLink = `https://wa.me/0034617056811?text=${nombre} te ha enviado un mensaje desde el formulario de contacto: ${mensaje} - Correo electrónico de contacto: ${correoElectronico}`;
-    window.open(whatsappLink, "_blank");
-  }; */
-
   const enviarWhatsapp = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    const whatsappLink = `https://wa.me/0034617056811?text=${nombre} te ha enviado un mensaje desde el formulario de contacto: ${mensaje} - Correo electrónico de contacto: ${correoElectronico}`;
+    const whatsappLink = `https://wa.me/34617056810?text=${nombre} te ha enviado un mensaje desde el formulario de contacto: ${mensaje} - Correo electrónico de contacto: ${correoElectronico}`;
     window.open(whatsappLink, "_blank");
   };
   
 
   const llamar = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    const numeroTelefono = "0034617056810";
+    const numeroTelefono = "34617056810";
     window.open(`tel:${numeroTelefono}`);
   };
 
