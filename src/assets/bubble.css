@@ -1,0 +1,48 @@
+
+.bubble {
+  width: 45px;
+  height: 45px;
+}
+
+/* Bubble code */
+.bubble::before {
+  content: "";
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid white;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+
+  box-shadow: 0 0 8px 1px rgba(255, 255, 255, 0.25),
+    inset -10px 10px 15px 5px rgba(255, 255, 255, 0.35),
+    inset 4px -4px 25px 2px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(
+    80% 80% at 70% 40%,
+    rgba(26, 239, 7, 0.3) 0%,
+    #5EB77E 56.77%,
+    rgba(81, 255, 110, 0.75) 96.88%
+  );
+
+  animation: 2s floating 1s infinite alternate linear;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0) rotate(-10deg);
+  }
+
+  30% {
+    transform: translate(4px, 3px) rotate(0);
+  }
+
+  70% {
+    transform: translate(4px, -4px) rotate(-20deg);
+  }
+
+  100% {
+    transform: translate(-2px, 4px) rotate(-40deg);
+  }
+}
