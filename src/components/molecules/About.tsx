@@ -103,8 +103,8 @@ const About = () => {
   `;
 
   const TimeDiv = styled.div`
-    margin-top: -380px;
-    @media (max-width: 768px) {
+    margin-top: -280px;
+    @media (max-width: 950px) {
       margin-top: -70px;
     }
   `;

@@ -37,6 +37,7 @@ function Home() {
     text-align: justify;
     font-weight: 10px;
     font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
     @media (max-width: 768px) {
       font-weight: 12px;
       margin-top: 90px;
@@ -59,13 +60,7 @@ function Home() {
           <h5>FrontEnd Developer</h5>
           <hr />
           <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet
-            reprehenderit sapiente eveniet, nam saepe reiciendis vitae unde
-            esse? Architecto officia incidunt a ipsa nemo, expedita dolorum
-            cupiditate veritatis aliquid? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Iure corporis voluptatum consectetur in tempore
-            architecto qui facere a! Veniam deserunt temporibus minus laborum
-            inventore fuga, soluta quibusdam sit amet dicta.
+          Hello, my name is Joan Guinart Casas, I came from working as a technical engineer at vueling and I wanted to retrain to FrontEnd programmer and I specialize in React Js. I would really like to be able to work in your company because I think we can provide mutual benefits, on the one hand I will contribute all my knowledge and soft skills to be able to solve problems and create new goals, on the other hand I know that thanks to you I can grow a lot as a programmer in your company and this will give us feedback as a company and as a worker.
           </StyledText>
         </StyledItem>
 
