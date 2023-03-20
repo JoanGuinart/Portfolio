@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import pdf from "../../assets/Curriculum_DEV_Joan_Guinart.pdf";
+import pdf from "../../assets/CV-Joan_Guinart_Casas.pdf";
 import LinkedIn from "../../assets/linkedin.png";
 import GitHub from "../../assets//icons8-github-512.png";
 import laptopLottie from "../../laptopLottie.json";
