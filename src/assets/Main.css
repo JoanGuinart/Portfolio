@@ -6,3 +6,6 @@ body {
   background: #121212;
   color: white;
 }
+.goog-te-gadget {
+    display: none !important;
+  }
