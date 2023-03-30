@@ -4,6 +4,7 @@ import APP_TASKCARDS from "../../assets/APP_TASKCARDS_TYPESCRIPT.jpg";
 import APP_SHOPPINGCART from "../../assets/APP_SHOPPINGCART.jpg";
 import APP_STARWARS from "../../assets/APP_STARWARS.jpg";
 import styled from "styled-components";
+import WEB_OPTICA from "../../assets/WEB_OPTICA_1.jpg"
 
 const StyledButton = styled.button`
   position: absolute;
@@ -64,6 +65,10 @@ const ImageSlider = () => {
 
   const images = [
     {
+      url: WEB_OPTICA,
+      link: "https://www.opticaguinart.com",
+    },
+    {
       url: APP_METEOROLOGICA,
       link: "https://codesandbox.io/p/github/JoanGuinart/WEATHER_APP_Joan_Guinart_Casas/master?file=%2Fsrc%2Fcomponents%2FCard.js&workspace=%257B%2522activeFileId%2522%253A%2522clf74iaio0005g9gg2inl9zwm%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clf74icto001d356ixmx6glct%2522%253A%257B%2522key%2522%253A%2522clf74icto001d356ixmx6glct%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%255D%257D%252C%2522clf74vtqq004e356jux2um12m%2522%253A%257B%2522key%2522%253A%2522clf74vtqq004e356jux2um12m%2522%252C%2522devtools%2522%253A%255B%257B%2522key%2522%253A%2522clfce9j0n0014356i3m4yn4ek%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522clf74vzgi009l356j78stvevz%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522key%2522%253A%2522clf74vvu0005p356j60ocxzj9%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%252C%2522name%2522%253A%2522start%2522%257D%257D%252C%2522currentSpace%2522%253A%2522clf74vtqq004e356jux2um12m%2522%252C%2522spacesOrder%2522%253A%255B%2522clf74icto001d356ixmx6glct%2522%252C%2522clf74vtqq004e356jux2um12m%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D",
     },
@@ -79,6 +84,7 @@ const ImageSlider = () => {
       url: APP_STARWARS,
       link: "https://codesandbox.io/p/github/JoanGuinart/StarWars-Api-App_Joan_Guinart_Casas/master?file=%2FREADME.md&workspace=%257B%2522activeFileId%2522%253A%2522clfcegix9000ag3kb01kucp4k%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clfcegktf0015356ilze5lyzb%2522%253A%257B%2522key%2522%253A%2522clfcegktf0015356ilze5lyzb%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%257B%2522key%2522%253A%2522clfcegktf0016356ibe75or5c%2522%252C%2522type%2522%253A%2522PROJECT_SETUP%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522PREVIEW%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522port%2522%253A3000%252C%2522key%2522%253A%2522clfcehbta0084356i8269ou77%2522%252C%2522isMinimized%2522%253Afalse%252C%2522path%2522%253A%2522%252Fstarships%2522%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522key%2522%253A%2522clfceh90w004w356ixv7bbb9u%2522%252C%2522isMinimized%2522%253Afalse%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clfcegktf0015356ilze5lyzb%2522%252C%2522spacesOrder%2522%253A%255B%2522clfcegktf0015356ilze5lyzb%2522%255D%252C%2522hideCodeEditor%2522%253Afalse%257D",
     },
+    
   ];
 
   const nextImage = () => {

@@ -29,6 +29,7 @@ const Textarea = styled.textarea`
   border-radius: 5px;
   border: none;
   margin-bottom: 20px;
+  max-width: 78%;
 `;
 
 const Boton = styled.button`
