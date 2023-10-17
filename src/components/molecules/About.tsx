@@ -133,7 +133,7 @@ const About = () => {
                   <StyledImg src={GitHub} alt="imgLogoGithub" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/joan-guinart-casas-100093219/"
+                  href="https://www.linkedin.com/in/joan-guinart-casas/"
                   target="_blank"
                 >
                   <StyledImg src={LinkedIn} alt="imgLogoLinkedin" />

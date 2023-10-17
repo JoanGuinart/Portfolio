@@ -66,15 +66,11 @@ function Home() {
             <h5>FrontEnd Developer</h5>
             <hr />
             <br />
-            Hello, my name is Joan Guinart Casas, I come from working as a
-            technical engineer at vueling and I wanted to retrain myself as a
-            FrontEnd programmer and I am specialized in React Js. I believe that
-            I can provide mutual benefits, on the one hand I will contribute all
-            my knowledge and soft skills to be able to solve problems and create
-            new goals, on the other hand I know that thanks to the company that
-            wants to hire me I can grow a lot as a programmer in their company
-            and this It will provide us with feedback as a company and as a
-            worker.
+            Hello! I'm a FrontEnd developer with a strong track record in
+            effectively tackling complex challenges while pursuing new goals. My
+            technical expertise and soft skills enable me to deliver innovative
+            solutions, collaborate effectively in team settings, and meet tight
+            deadlines, thus contributing to project success. worker.
           </StyledText>
         </StyledItem>
       </StyledGrid>

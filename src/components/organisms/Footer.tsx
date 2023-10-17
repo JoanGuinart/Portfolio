@@ -13,8 +13,18 @@ const FooterWrapper = styled.footer`
   color: #fff;
   align-items: center;
   margin-top: 20px;
-  width: 100%;
   height: 250px;
+  border: solid 10px #252525;
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 `;
 
 const LeftSection = styled.div`
@@ -61,6 +71,8 @@ const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 `;
 
 const ContactLink = styled.a`

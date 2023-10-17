@@ -22,6 +22,8 @@ const Input = styled.input`
   border-radius: 5px;
   border: none;
   margin-bottom: 20px;
+  margin-top:10px;
+  width: 100%;
 `;
 
 const Textarea = styled.textarea`
@@ -29,7 +31,8 @@ const Textarea = styled.textarea`
   border-radius: 5px;
   border: none;
   margin-bottom: 20px;
-  max-width: 78%;
+  margin-top: 10px;
+  width: 100%;
 `;
 
 const Boton = styled.button`
@@ -108,6 +111,7 @@ function FormularioContacto() {
 
   return (
     <Formulario>
+
       <StyledLabel>Nombre:</StyledLabel>
       <Input
         type="text"
@@ -142,6 +146,8 @@ function FormularioContacto() {
           <FiPhoneCall />
         </BotonCall>
       </DivStyled>
+        
+        
     </Formulario>
   );
 }
