@@ -9,6 +9,7 @@ import Blastoestimulina from "../../assets/blastoestimulina.jpg"
 import Digitalgarden from "../../assets/digitalgarden.jpg"
 import Optiderm from "../../assets/optiderm.jpg"
 import Hauthilfe from "../../assets/hauthilfe.jpg"
+import Arrow from "/src/assets/arrow.png"
 
 const StyledButton = styled.button`
   position: absolute;
@@ -96,7 +97,7 @@ const ImageSlider = () => {
   return (
     <div style={{ position: "relative" }}>
       <StyledButton style={{ left: "0" }} onClick={prevImage}>
-        <ArrowLeft src="/src/assets/arrow.png" alt="" />
+        <ArrowLeft src={Arrow} alt="arrow left" />
       </StyledButton>
       <a
         href={images[currentImageIndex].link}
@@ -109,7 +110,7 @@ const ImageSlider = () => {
         />
       </a>
       <StyledButton style={{ right: "0" }} onClick={nextImage}>
-      <ArrowRight src="/src/assets/arrow.png" alt="" />
+      <ArrowRight src={Arrow} alt="arrow right" />
       </StyledButton>
     </div>
   );
