@@ -26,7 +26,7 @@ function Projects() {
 
   return (
     <StyledGrid id='PROJECTS'>
-      <h1>Projects</h1>
+      <h1>Projects that I worked on:</h1>
       <ImageSlider />
     </StyledGrid>
   )

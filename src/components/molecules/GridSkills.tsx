@@ -62,12 +62,18 @@ function GridSkills() {
                 <tr>
                   <td className="barrasGrafic">
                     <td className="skillGraphItem">TYPESCRIPT</td>
-                    <div className="blueBarLow"></div>
+                    <div className="blueBarHigh"></div>
                   </td>
                 </tr>
                 <tr>
                   <td className="barrasGrafic">
                     <td className="skillGraphItem">REACT JS</td>
+                    <div className="yellowBarHigh"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="barrasGrafic">
+                    <td className="skillGraphItem">VUE (v3)</td>
                     <div className="yellowBarHigh"></div>
                   </td>
                 </tr>
@@ -79,6 +85,18 @@ function GridSkills() {
           <div>
             <div>
               <tbody>
+              <tr>
+                  <td className="barrasGrafic">
+                    <td className="skillGraphItem">NUXT JS</td>
+                    <div className="yellowBarHigh"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="barrasGrafic">
+                    <td className="skillGraphItem">REDUX</td>
+                    <div className="yellowBarLow"></div>
+                  </td>
+                </tr>
                 <tr>
                   <td className="barrasGrafic">
                     <td className="skillGraphItem">BOOTSTRAP</td>
@@ -88,7 +106,7 @@ function GridSkills() {
                 <tr>
                   <td className="barrasGrafic">
                     <td className="skillGraphItem">TAILWIND</td>
-                    <div className="yellowBarLow"></div>
+                    <div className="yellowBarFull"></div>
                   </td>
                 </tr>
                 <tr>

@@ -112,7 +112,7 @@ function FormularioContacto() {
   return (
     <Formulario>
 
-      <StyledLabel>Nombre:</StyledLabel>
+      <StyledLabel>Name:</StyledLabel>
       <Input
         type="text"
         value={nombre}
@@ -120,7 +120,7 @@ function FormularioContacto() {
         required
         style={{border: "solid 0.2px #212121"}}
       />
-      <StyledLabel>Correo electrónico:</StyledLabel>
+      <StyledLabel>Email:</StyledLabel>
       <Input
         type="email"
         value={correoElectronico}
@@ -128,7 +128,7 @@ function FormularioContacto() {
         required
         style={{border: "solid 0.2px #212121"}}
       />
-      <StyledLabel>Mensaje:</StyledLabel>
+      <StyledLabel>Message:</StyledLabel>
       <Textarea
         value={mensaje}
         onChange={(e) => setMensaje(e.target.value)}

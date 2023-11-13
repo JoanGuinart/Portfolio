@@ -16,7 +16,7 @@ const About = () => {
     grid-gap: 20px;
     margin-left: 7vw;
     margin-right: 7vw;
-    margin-top: 1vw;
+    margin-top: 50px;
     @media (max-width: 768px) {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: auto;
