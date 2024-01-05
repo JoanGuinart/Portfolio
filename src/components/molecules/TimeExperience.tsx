@@ -27,7 +27,7 @@ const P = styled.p`
 `
 
 const TimeExperience = () => {
-  let fa: Date = new Date("05/03/2022");
+  let fa: Date = new Date("12/01/2021");
   let fb: Date = new Date();
 
   let totdias: number = fa.getTime() - fb.getTime();
