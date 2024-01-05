@@ -11,6 +11,7 @@
   .skillGraphItem {
     font-size: 14px;
     line-height: 30px;
+    font-weight: bold;
   }
   @media (max-width: 1050px) {
     .skillGraphItem{
