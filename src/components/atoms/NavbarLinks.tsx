@@ -46,20 +46,7 @@ const StyledLink = styled.a`
 
 function NavbarLinks() {
   const [activeLink, setActiveLink] = useState("#HOME");
-
-  /* const handleLinkClick = (
-    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-  ): void => {
-    e.preventDefault();
-    const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute(
-      "href"
-    );
-    const targetElement = document.querySelector<HTMLElement>(targetId);
-    if (targetElement) {
-      (targetElement as HTMLElement).scrollIntoView({ behavior: "smooth" });
-    }
-  }; */
-
+  
   const handleLinkClick = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
   ): void => {

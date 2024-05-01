@@ -10,7 +10,7 @@ function Home() {
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
-    margin-top: 120px;
+    padding-top: 120px;
     margin-left: 7vw;
     margin-right: 7vw;
     @media (max-width: 768px) {

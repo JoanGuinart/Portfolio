@@ -10,7 +10,7 @@ function Projects() {
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    margin-top: 13vw;
+    padding-top: 120px;
     margin-left: 7vw;
     margin-right: 7vw;
 

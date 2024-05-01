@@ -6,6 +6,7 @@ function Skills() {
   const StyledDiv = styled.div`
     display: grid;
     font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
     margin-left: 7vw;
     margin-right: 7vw;
     grid-template-columns: auto;
