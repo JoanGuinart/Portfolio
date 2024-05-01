@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import pdf from "../../assets/CV Full Size Joan-Guinart-Casas.pdf";
+import pdf from "../../assets/CV-Joan_Guinart_2024.pdf";
 import LinkedIn from "../../assets/linkedin.png";
 import GitHub from "../../assets//icons8-github-512.png";
 import laptopLottie from "../../laptopLottie.json";
@@ -10,13 +10,13 @@ const About = () => {
   const StyledGrid = styled.div`
     display: grid;
     align-items: center;
-    grid-template-rows: 100vh;
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: 50px;
+    padding-bottom: 150px;
     @media (max-width: 768px) {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: auto;
@@ -141,7 +141,7 @@ const About = () => {
                 <a
                   href={pdf}
                   rel="noopener noreferrer"
-                  download="CV-Joan_Guinart_Casas"
+                  download="CV-Joan_Guinart_2024"
                 >
                   <StyledLink>Download CV</StyledLink>
                 </a>

@@ -10,6 +10,7 @@ import Digitalgarden from "../../assets/digitalgarden.jpg"
 import Optiderm from "../../assets/optiderm.jpg"
 import Hauthilfe from "../../assets/hauthilfe.jpg"
 import Arrow from "/src/assets/arrow.png"
+import Infonet from "/src/assets/infonet_screenshot.png";
 
 const StyledButton = styled.button`
   position: absolute;
@@ -53,6 +54,10 @@ const ImageSlider = () => {
     {
       url: Blastoestimulina,
       link: "https://www.blastoestimulina.com/",
+    },
+    {
+      url: Infonet,
+      link: "https://infonet.fr/"
     },
     {
       url: WEB_OPTICA,

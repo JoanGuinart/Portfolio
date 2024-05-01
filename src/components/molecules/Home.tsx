@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import selfieJoan from "../../assets/joan3comprimida.jpg";
+import selfieJoan from "../../assets/Joan_Guinart_Selfie.jpeg";
 
 import bubbles from "../../bubbles.json";
 import Lottie from "lottie-react";
@@ -7,7 +7,6 @@ import Lottie from "lottie-react";
 function Home() {
   const StyledGrid = styled.div`
     display: grid;
-    grid-template-rows: 100vh;
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;

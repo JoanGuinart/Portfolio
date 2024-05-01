@@ -8,8 +8,6 @@ function Skills() {
     font-family: "Montserrat", sans-serif;
     margin-left: 7vw;
     margin-right: 7vw;
-    padding-top: 12vw;
-    margin-top: 10vw;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 20px;
@@ -35,7 +33,7 @@ function Skills() {
   return (
     <div id="SKILLS">
     <StyledDiv>
-      <StyledTitle>My Skills</StyledTitle>
+      <StyledTitle>My Skills /*Editing Section*/</StyledTitle>
       <GridSkills />
     </StyledDiv>
     </div>

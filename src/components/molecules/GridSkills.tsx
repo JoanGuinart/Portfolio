@@ -1,131 +1,77 @@
-import React from 'react'
-import styled from 'styled-components';
-import "../../assets/graphBar.css";
+import styled from "styled-components";
 
-
-const StyledGrid = styled.div`
-  display: grid;
+const StyledFlexContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
   font-family: "Montserrat", sans-serif;
-  grid-template-columns: repeat(2, 1fr);
+  max-width: 800px;
+  margin: 0 auto;
+`;
+
+const SkillItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  height: 100px;
   @media (max-width: 780px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 16px;
   }
 `;
 
-const StyledItem = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 1.5vw;
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  border-radius: 50px;
-  z-index: -1;
-  @media (max-width: 780px) {
-    width: 100%;
-    height: auto;
-    justify-content: flex-start;
-    margin-left: 25%;
-  }
+const SkillImage = styled.img`
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+`;
+
+const SkillName = styled.span`
+  display: block;
 `;
 
 function GridSkills() {
-  
-  
+  const imageSrc = "/src/assets/G-letter.png";
+
+  const skills = [
+    { name: "HTML", image: imageSrc },
+    { name: "CSS", image: imageSrc },
+    { name: "JavaScript", image: imageSrc },
+    { name: "TypeScript", image: imageSrc },
+    { name: "React JS", image: imageSrc },
+    { name: "Vue (v3)", image: imageSrc },
+    { name: "Nuxt JS", image: imageSrc },
+    { name: "Redux", image: imageSrc },
+    { name: "Bootstrap", image: imageSrc },
+    { name: "Tailwind", image: imageSrc },
+    { name: "Styled Components", image: imageSrc },
+    { name: "Firebase", image: imageSrc },
+    { name: "Twig", image: imageSrc },
+    { name: "Git", image: imageSrc },
+    { name: "GitHub", image: imageSrc },
+    { name: "GitLab", image: imageSrc },
+    { name: "Npm", image: imageSrc },
+    { name: "Pnpm", image: imageSrc },
+    { name: "Yarn", image: imageSrc },
+  ];
+
   return (
+    <StyledFlexContainer>
+      {skills.map((skill, index) => (
+        <SkillItem key={index}>
+          <SkillImage src={skill.image} alt={"Imagen de " + skill.name} />
+          <SkillName>{skill.name}</SkillName>
+        </SkillItem>
+      ))}
+    </StyledFlexContainer>
+  );
+}
 
-<StyledGrid>
-        <StyledItem>
-          <div>
-            <div>
-              <tbody>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">HTML</td>
-                    <div className="yellowBarFull"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">CSS</td>
-                    <div className="blueBarHigh"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">JAVASCRIPT</td>
-                    <div className="yellowBarHigh"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">TYPESCRIPT</td>
-                    <div className="blueBarHigh"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">REACT JS</td>
-                    <div className="yellowBarHigh"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">VUE (v3)</td>
-                    <div className="yellowBarHigh"></div>
-                  </td>
-                </tr>
-              </tbody>
-            </div>
-          </div>
-        </StyledItem>
-        <StyledItem>
-          <div>
-            <div>
-              <tbody>
-              <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">NUXT JS</td>
-                    <div className="yellowBarHigh"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">REDUX</td>
-                    <div className="yellowBarLow"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">BOOTSTRAP</td>
-                    <div className="blueBarLowMed"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">TAILWIND</td>
-                    <div className="yellowBarFull"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">STYLED COMPONENTS</td>
-                    <div className="blueBarHalf"></div>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="barrasGrafic">
-                    <td className="skillGraphItem">FIREBASE</td>
-                    <div className="yellowBarLow"></div>
-                  </td>
-                </tr>
-              </tbody>
-            </div>
-          </div>
-        </StyledItem>
-      </StyledGrid>
-      )}
-
-      export default GridSkills
+export default GridSkills;

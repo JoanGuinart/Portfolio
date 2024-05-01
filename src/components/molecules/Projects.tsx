@@ -9,7 +9,6 @@ function Projects() {
     align-items: center;
     font-family: "Montserrat", sans-serif;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100vh;
     grid-gap: 20px;
     margin-top: 13vw;
     margin-left: 7vw;
