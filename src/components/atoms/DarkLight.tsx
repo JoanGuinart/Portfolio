@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 function DarkLight() {
-  const TurnDarkLight = () => {
-    let element = document.body;
-    element.classList.toggle("dark-mode");
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkLight = () => {
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+    if (newMode) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
   };
 
   const Styledlabel = styled.label`
@@ -68,6 +75,9 @@ function DarkLight() {
       transform: translateX(-100%);
       background: linear-gradient(180deg, #fff6ea, #ffffff);
     }
+    &:focus{
+      display: none;
+    }
     @media (max-width: 768px) {
       &:checked + label:after {
       left: 65px;
@@ -81,7 +91,9 @@ function DarkLight() {
     <>
       <StyledInput
         type="checkbox"
-        onChange={TurnDarkLight}
+        checked={darkMode}
+        onChange={() => {}}
+        onClick={toggleDarkLight} // Cambiado de onChange a onClick
         id="darkmode-toggle"
       />
       <Styledlabel htmlFor="darkmode-toggle"></Styledlabel>
