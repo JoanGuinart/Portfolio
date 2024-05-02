@@ -34,7 +34,7 @@ function Skills() {
   return (
     <div id="SKILLS">
     <StyledDiv>
-      <StyledTitle>My Skills /*Editing Section*/</StyledTitle>
+      <StyledTitle>Languages, Frameworks & Technologies</StyledTitle>
       <GridSkills />
     </StyledDiv>
     </div>
