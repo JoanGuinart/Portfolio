@@ -29,18 +29,12 @@ function DarkLight() {
       width: 20px;
       height: 20px;
       position: absolute;
-      top: 0px;
-      left: 0px;
+      top: 0;
+      left: 0;
       background: linear-gradient(180deg, #777, #3a3a3a);
       border-radius: 180px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    }
-    &:active:after {
-      width: 30px;
-    }
-    &:label,
-    label:after {
-      transition: 0.5s;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s ease;
     }
     @media (max-width: 768px) {
       width: 65px;
@@ -50,11 +44,12 @@ function DarkLight() {
       width: 30px;
       height: 30px;
       position: absolute;
-      top: -0.5px;
-      left: 0px;
+      top: 0;
+      left: 0;
       background: linear-gradient(180deg, #777, #3a3a3a);
       border-radius: 180px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s ease;
     }
     &:active:after {
       width: 15px;
@@ -71,17 +66,14 @@ function DarkLight() {
     }
     &:checked + label:after {
       left: 50px;
-      top: -.5px;
+      top: 0;
       transform: translateX(-100%);
       background: linear-gradient(180deg, #fff6ea, #ffffff);
-    }
-    &:focus{
-      display: none;
     }
     @media (max-width: 768px) {
       &:checked + label:after {
       left: 65px;
-      top: 0px;
+      top: 0;
       transform: translateX(-100%);
       background: linear-gradient(180deg, #fff6ea, #ffffff);
     }}
