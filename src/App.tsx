@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Nabvar from "./components/organisms/Nabvar";
 import "./assets/Main.css";
 import MainPage from "./components/organisms/MainPage";
-import Footer from "./components/organisms/Footer";
 
 
 function App() {

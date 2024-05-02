@@ -29,7 +29,7 @@ import EslintSvg from "/src/assets/skills/Eslint_svg.svg";
 const StyledFlexContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
   max-width: 800px;
@@ -37,6 +37,9 @@ const StyledFlexContainer = styled.div`
 `;
 
 const SkillImage = styled.img`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
@@ -61,10 +64,11 @@ const SkillItem = styled.div`
   align-items: center;
   font-size: 1vw;
   text-align: center;
-  border: 1px solid #dedede;
-  border-radius: 5px;
+  border: 0.2px solid #dedede;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
   padding: 10px;
-  width: 120px;
+  width: 100px;
   height: 100px;
   @media (max-width: 780px) {
     font-size: 16px;
