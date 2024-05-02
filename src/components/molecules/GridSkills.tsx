@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 import HtmlSvg from "/src/assets/skills/Html_svg.svg";
@@ -42,22 +41,21 @@ const SkillImage = styled.img`
   align-items: center;
   width: 50px;
   height: 50px;
-  margin-bottom: 5px;
-  transition: width 0.3s, height 0.3s; /* Transición suave */
+  transition: width 0.3s, height 0.3s;
 `;
 
 const SkillName = styled.span`
   display: block;
-  position: absolute; /* Posicionamiento absoluto para estar encima de la imagen */
-  bottom: 10px; /* Alineación con el borde inferior */
-  left: 0; /* Alineación con el borde izquierdo */
-  right: 0; /* Alineación con el borde derecho */
-  visibility: visible; /* Hacer el título visible por defecto */
-  transition: visibility 0.3s; /* Transición suave */
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  visibility: visible; 
+  transition: visibility 0.3s; 
 `;
 
 const SkillItem = styled.div`
-  position: relative; /* Agregado para posicionar el título */
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -67,6 +65,8 @@ const SkillItem = styled.div`
   border: 0.2px solid #dedede;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
+  background-color: white;
+  color: black !important;
   padding: 10px;
   width: 100px;
   height: 100px;
@@ -75,11 +75,11 @@ const SkillItem = styled.div`
   }
   &:hover {
     & > ${SkillImage} {
-      width: 100%; /* La imagen ocupa todo el ancho */
-      height: 100%; /* La imagen ocupa todo el alto */
+      width: 100%; 
+      height: 100%; 
     }
     & > ${SkillName} {
-      display: none; /* El título se hace invisible */
+      display: none;
     }
   }
 `;
