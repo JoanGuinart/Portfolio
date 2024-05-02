@@ -33,9 +33,9 @@ const SkillItem = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #dedede;
   border-radius: 5px;
   padding: 10px;
   width: 120px;
@@ -68,7 +68,7 @@ function GridSkills() {
     { name: "Redux", image: imageSrc + "Redux_svg.svg" },
     { name: "Bootstrap", image: imageSrc + "Bootstrap_svg.svg" },
     { name: "Tailwind", image: imageSrc + "Tailwind_svg.svg" },
-    { name: "Styled Components", image: imageSrc + "StyledComponents_svg.svg" },
+    { name: "Styled Components", image: imageSrc + "StyledComponents_png.png" },
     { name: "Firebase", image: imageSrc + "Firebase_svg.svg" },
     { name: "Twig", image: imageSrc + "Twig_svg.svg" },
     { name: "Git", image: imageSrc + "Git_svg.svg" },
