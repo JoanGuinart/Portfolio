@@ -1,4 +1,30 @@
+import React from "react";
 import styled from "styled-components";
+
+import HtmlSvg from "/src/assets/skills/Html_svg.svg";
+import CssSvg from "/src/assets/skills/Css_svg.svg";
+import JavaScriptSvg from "/src/assets/skills/JavaScript_svg.svg";
+import TypeScriptSvg from "/src/assets/skills/TypeScript_svg.svg";
+import ReactSvg from "/src/assets/skills/React_svg.svg";
+import VueSvg from "/src/assets/skills/Vue_svg.svg";
+import NuxtSvg from "/src/assets/skills/Nuxt_svg.svg";
+import ReduxSvg from "/src/assets/skills/Redux_svg.svg";
+import BootstrapSvg from "/src/assets/skills/Bootstrap_svg.svg";
+import TailwindSvg from "/src/assets/skills/Tailwind_svg.svg";
+import StyledComponentsSvg from "/src/assets/skills/StyledComponents_svg.svg";
+import FirebaseSvg from "/src/assets/skills/Firebase_svg.svg";
+import TwigSvg from "/src/assets/skills/Twig_svg.svg";
+import GitSvg from "/src/assets/skills/Git_svg.svg";
+import GithubSvg from "/src/assets/skills/Github_svg.svg";
+import GitLabSvg from "/src/assets/skills/GitLab_svg.svg";
+import AzureSvg from "/src/assets/skills/Azure_svg.svg";
+import NpmSvg from "/src/assets/skills/Npm_svg.svg";
+import PnpmSvg from "/src/assets/skills/Pnpm_svg.svg";
+import YarnSvg from "/src/assets/skills/Yarn_svg.svg";
+import AgileSvg from "/src/assets/skills/Agile_svg.svg";
+import ResponsiveSvg from "/src/assets/skills/Responsive_svg.svg";
+import FigmaSvg from "/src/assets/skills/Figma_svg.svg";
+import EslintSvg from "/src/assets/skills/Eslint_svg.svg";
 
 const StyledFlexContainer = styled.div`
   display: flex;
@@ -55,33 +81,31 @@ const SkillItem = styled.div`
 `;
 
 function GridSkills() {
-  const imageSrc = "/src/assets/skills/";
-
   const skills = [
-    { name: "HTML", image: imageSrc + "Html_svg.svg" },
-    { name: "CSS", image: imageSrc + "Css_svg.svg" },
-    { name: "JavaScript", image: imageSrc + "JavaScript_svg.svg" },
-    { name: "TypeScript", image: imageSrc + "TypeScript_svg.svg" },
-    { name: "React JS", image: imageSrc + "React_svg.svg" },
-    { name: "Vue (v3)", image: imageSrc + "Vue_svg.svg" },
-    { name: "Nuxt JS", image: imageSrc + "Nuxt_svg.svg" },
-    { name: "Redux", image: imageSrc + "Redux_svg.svg" },
-    { name: "Bootstrap", image: imageSrc + "Bootstrap_svg.svg" },
-    { name: "Tailwind", image: imageSrc + "Tailwind_svg.svg" },
-    { name: "Styled Components", image: imageSrc + "StyledComponents_png.png" },
-    { name: "Firebase", image: imageSrc + "Firebase_svg.svg" },
-    { name: "Twig", image: imageSrc + "Twig_svg.svg" },
-    { name: "Git", image: imageSrc + "Git_svg.svg" },
-    { name: "GitHub", image: imageSrc + "Github_svg.svg" },
-    { name: "GitLab", image: imageSrc + "GitLab_svg.svg" },
-    { name: "Azure", image: imageSrc + "Azure_svg.svg" },
-    { name: "Npm", image: imageSrc + "Npm_svg.svg" },
-    { name: "Pnpm", image: imageSrc + "Pnpm_svg.svg" },
-    { name: "Yarn", image: imageSrc + "Yarn_svg.svg" },
-    { name: "Agile", image: imageSrc + "Agile_svg.svg" },
-    { name: "Responsive Web Design", image: imageSrc + "Responsive_svg.svg" },
-    { name: "Figma", image: imageSrc + "Figma_svg.svg" },
-    { name: "Eslint", image: imageSrc + "Eslint_svg.svg" },
+    { name: "HTML", image: HtmlSvg },
+    { name: "CSS", image: CssSvg },
+    { name: "JavaScript", image: JavaScriptSvg },
+    { name: "TypeScript", image: TypeScriptSvg },
+    { name: "React JS", image: ReactSvg },
+    { name: "Vue (v3)", image: VueSvg },
+    { name: "Nuxt JS", image: NuxtSvg },
+    { name: "Redux", image: ReduxSvg },
+    { name: "Bootstrap", image: BootstrapSvg },
+    { name: "Tailwind", image: TailwindSvg },
+    { name: "Styled Components", image: StyledComponentsSvg },
+    { name: "Firebase", image: FirebaseSvg },
+    { name: "Twig", image: TwigSvg },
+    { name: "Git", image: GitSvg },
+    { name: "GitHub", image: GithubSvg },
+    { name: "GitLab", image: GitLabSvg },
+    { name: "Azure", image: AzureSvg },
+    { name: "Npm", image: NpmSvg },
+    { name: "Pnpm", image: PnpmSvg },
+    { name: "Yarn", image: YarnSvg },
+    { name: "Agile", image: AgileSvg },
+    { name: "Responsive Web Design", image: ResponsiveSvg },
+    { name: "Figma", image: FigmaSvg },
+    { name: "Eslint", image: EslintSvg },
   ];
 
   return (
